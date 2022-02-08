@@ -21,6 +21,9 @@ export const pictureStyles = createUseStyles({
     width: 100%;
     height: 100%;
   `,
+  link: `
+    color: white;
+  `
 });
 //#endregion pictureStyles
 
@@ -48,7 +51,6 @@ export const formStyle = createUseStyles({
     padding: 1rem;
     width: 100%;
     max-width: 500px;
-    height: 350px;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -66,6 +68,7 @@ export const formStyle = createUseStyles({
     outline: none;
     border: none;
     margin: 0.5rem 0;
+    text-align: center;
     `,
   formButton: `
     display: block;
@@ -98,5 +101,16 @@ export const formStyle = createUseStyles({
     text-align: center;
     width: 100%;
   `,
+  formResult: `
+  font-family: 'Roboto', sans-serif;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0;
+  background-color: ${colors.secondary};
+  color: #fff;
+  width: 90%;
+  max-width: 450px;
+  overflow-wrap: break-word;
+`
 });
 //#endregion FormStyles

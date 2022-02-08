@@ -17,7 +17,17 @@ export const Picture = () => {
       </div>
       <h1>Hash Generator</h1>
       <h3>Power by React-JS and Crypto-JS</h3>
-      <h5>Made by EngelReyes</h5>
+      <h5>
+        Made by{" "}
+        <a
+          href="https://github.com/EngelReyes23"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.link}
+        >
+          Engel Reyes
+        </a>
+      </h5>
     </div>
   );
 };
