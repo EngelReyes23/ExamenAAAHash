@@ -39,7 +39,7 @@ export const mainStyle = createUseStyles({
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    min-height: 94.5vh;
+    min-height: 100vh;
   `,
 });
 //#endregion mainStyle
